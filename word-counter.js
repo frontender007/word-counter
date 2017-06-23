@@ -1,15 +1,7 @@
 var numWords = document.getElementById("output");
 var txtBox = document.getElementById("txtBox");
-/*btn.onclick = function()
-{
-  var str = document.getElementById("txtBox").value;
-   var words = str.split(" ");
-   numWords.value = words.length;
-   console.log( words.length );
-   
-};*/
-
-
+var timePassed = document.querySelector(".timePassed");
+var wpmBox = document.querySelector(".wordPM");
 function countWords (e) {
   
       var str = txtBox.value;
@@ -30,3 +22,5 @@ function countWords (e) {
 }
 
 txtBox.addEventListener("keyup" , countWords);
+
+wpmBox.addEventListener("click" , function(){alert("Hello");});

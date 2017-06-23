@@ -13,6 +13,7 @@ textarea
 {
   width: 100%;
   padding: 10px;
+  min-height: 300px;
   background-color: #dfdfdf;
   color: #333;
   font-size: 18px; 
@@ -40,3 +41,19 @@ input[type="text"]
   font-family: "Railway Dots", serif;
 }
 
+.stats {
+    margin-top: 20px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.stats span {
+    width: 50%;
+    float: left;
+    text-align: left;
+    padding: 15px 0 15px 15px;
+    box-sizing: border-box;
+    color: #fff;
+    background: tomato;
+    font-weight: bold;
+}
